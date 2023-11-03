@@ -1,0 +1,1855 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zee5</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <img
+          src="https://www.zee5.com/images/ZEE5_logo.svg?ver=3.12.5"
+          alt=""
+        />
+        <div class="part">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Web Series</a></li>
+            <li>
+              <a href="#"
+                ><svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="grid"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  class="svg-inline--fa fa-grid fa-lg"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M0 72C0 49.9 17.9 32 40 32H88c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V72zM0 232c0-22.1 17.9-40 40-40H88c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V232zM128 392v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V392c0-22.1 17.9-40 40-40H88c22.1 0 40 17.9 40 40zM160 72c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V72zM288 232v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V232c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40zM160 392c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V392zM448 72v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V72c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40zM320 232c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V232zM448 392v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V392c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40z"
+                    class=""
+                  ></path>
+                </svg>
+              </a>
+              <ul id="menu">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Eduauraa</a></li>
+                <li><a href="#">Live TV</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Rent</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Songs</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Channels</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="part2">
+          <input type="text" placeholder="Search for Movies,channels etc" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="part3">
+          <h3>A<sup>अ</sup></h3>
+          <button id="btn">LOGIN</button>
+          <button id="btn1"><i class="fa-solid fa-crown"></i> BUY NOW</button>
+          <i id="cart" class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <!-- 1st page -->
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5359029/cover/1920x770e80779dbdde042fd8f451ea5a69cec08.jpg"
+                alt=""
+              />
+              <div class="nav-part">
+                <h3>Sirf Ek Bandaa kaafi Hai</h3>
+                <div class="flex">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                  <button id="btn4">
+                    <i class="fa-solid fa-crown"></i> BUY NOW
+
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5379692/cover/1920x7702441c1e9f0a847618aee322d7527a791.jpg"                alt=""
+              />
+              <div class="nav-part">
+                <h3>Kisi Ka Bhai Kisi Ki Jaan</h3>
+                <div class="flex">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                  <button id="btn4">
+                    <i class="fa-solid fa-crown"></i> BUY NOW
+
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/cover/1920x770f64d124a95ca4804a2279fb5883eacc46e9b0ae73a264f5c9a349326d7bfc3a4.jpg"                alt=""
+              />
+              <div class="nav-part">
+                <h3>Taj</h3>
+                <div class="flex">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                  <button id="btn4">
+                    <i class="fa-solid fa-crown"></i> BUY NOW
+
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5368704/cover/1920x770f69118a4838a47739de23c5f79918761.jpg"                alt=""
+              />
+              <div class="nav-part">
+                <h3>Tarla</h3>
+                <div class="flex">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                  <button id="btn4">
+                    <i class="fa-solid fa-crown"></i> BUY NOW
+
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5334341/cover/1920x7702020ffa4b64f4222b16e4d5ebc0c3a36.jpg"                alt=""
+              />
+              <div class="nav-part">
+                <h3>Mrs Undercover</h3>
+                <div class="flex">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                  <button id="btn4">
+                    <i class="fa-solid fa-crown"></i> BUY NOW
+
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-6-366/cover/1920x770bbab5a01556441b4a2ee06641a2b2d47.jpg"                alt=""
+              />
+              <div class="nav-part">
+                <h3>Tarla</h3>
+                <div class="flex">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+
+                  
+              </div>
+            </div>
+            </div>
+            
+          </div>
+          <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <!-- 2nd page -->
+
+      <div class="slider">
+        <h3>Continue Watching</h3>
+        <div class="slide">
+          <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/portrait/1920x770a1543a518e4245ea8fd5391cd48a6289.jpg" alt="">
+          <button id="btn5">
+            <i class="fa-solid fa-play"></i>Watch
+          </button>
+          <div class="tag9">
+          <h5><i class="fa-solid fa-share"></i>Share</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3rd page -->
+     <div class="page2">
+      <h3>Trending Near You</h3>
+      <div class="slider-part3">
+        <div class="slide-img1">
+          <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5359029/portrait/1920x770e80779dbdde042fd8f451ea5a69cec08.jpg" alt="">
+         
+          <div class="part-nav1">
+            <h4>Sirf Ek Bandaa Kaafi Hai</h4>
+            <p>2h 7m<i class="fa-solid fa-circle"></i> Drama<i class="fa-solid fa-circle"></i>Thriller</p>
+            <div class="flex2">
+            <button id="btn3">
+              <i class="fa-solid fa-play"></i>Watch
+            </button>
+          <h5><i class="fa-solid fa-share"></i>Share</h5>
+          </div>
+            
+            
+            </div>
+            </div>
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5368704/portrait/1920x770f69118a4838a47739de23c5f79918761.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Tarla</h4>
+                <p>2h 7m<i class="fa-solid fa-circle"></i> Drama<i class="fa-solid fa-circle"></i>Biopic</p>
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                
+                
+                </div>
+                </div>
+                <!-- part -->
+                <div class="slide-img1">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5379692/portrait/1920x7702441c1e9f0a847618aee322d7527a791.jpg" alt="">
+                 
+                  <div class="part-nav1">
+                    <h4>Kisi ki Bhai Kisi Ki jaan</h4>
+                    <p>2h 7m<i class="fa-solid fa-circle"></i> Action<i class="fa-solid fa-circle"></i>Drama</p>
+                    <div class="flex2">
+                    <button id="btn3">
+                      <i class="fa-solid fa-play"></i>Watch
+                    </button>
+                  <h5><i class="fa-solid fa-share"></i>Share</h5>
+                  </div>
+                    
+                    
+                    </div>
+                    </div>
+                    <!-- part -->
+                    <div class="slide-img1">
+                      <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5334341/portrait/1920x7702020ffa4b64f4222b16e4d5ebc0c3a36.jpg" alt="">
+                     
+                      <div class="part-nav1">
+                        <h4>Mrs Undercover</h4>
+                        <p>1h 7m<i class="fa-solid fa-circle"></i>Comedy<i class="fa-solid fa-circle"></i>Thriller</p>
+                        <div class="flex2">
+                        <button id="btn3">
+                          <i class="fa-solid fa-play"></i>Watch
+                        </button>
+                      <h5><i class="fa-solid fa-share"></i>Share</h5>
+                      </div>
+                        
+                        
+                        </div>
+                        </div>
+                        <!-- box -->
+                        <div class="slide-img1">
+                          <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5399186/portrait/1920x770c076c1587601448bb97558b40da6935b.jpg" alt="">
+                         
+                          <div class="part-nav1">
+                            <h4> The Kashmir Files:Unreported</h4>
+                            <!-- <p>1h 7m<i class="fa-solid fa-circle"></i>Comedy<i class="fa-solid fa-circle"></i>Thriller</p> -->
+                            <div class="flex2">
+                            <button id="btn3">
+                              <i class="fa-solid fa-play"></i>Watch
+                            </button>
+                          <h5><i class="fa-solid fa-share"></i>Share</h5>
+                          </div>
+                            
+                            
+                            </div>
+                            </div>      
+                             <!--box  -->
+                             
+                             
+                             <!-- box -->
+         </div>
+      </div>
+      <!-- page4 -->
+      <div class="page3">
+        <h3>Top 10 Web Series In India</h3>
+        <div class="slider-part-nav">
+          <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5387149/portrait/1920X770cc61cfdc4a31443db159763240b02e4c.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Maya-Bazar-For Sale</h4>
+              <!-- <p>1h 7m<i class="fa-solid fa-circle"></i>Comedy<i class="fa-solid fa-circle"></i>Thriller</p> -->
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              
+              
+              </div>
+              </div>   
+                 <!-- <-- box -->
+                 <div class="slide-img1">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/portrait/1920x770f64d124a95ca4804a2279fb5883eacc46e9b0ae73a264f5c9a349326d7bfc3a4.jpg" alt="">
+                 
+                  <div class="part-nav1">
+                    <h4>Taj</h4>
+                    <!-- <p>1h 7m<i class="fa-solid fa-circle"></i>Comedy<i class="fa-solid fa-circle"></i>Thriller</p> -->
+                    <div class="flex2">
+                    <button id="btn3">
+                      <i class="fa-solid fa-play"></i>Watch
+                    </button>
+                  <h5><i class="fa-solid fa-share"></i>Share</h5>
+                  </div>
+                    
+                    
+                    </div>
+                    </div>   
+                    <!-- box -->
+                    <div class="slide-img1">
+                      <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5347411/portrait/1920x770ad992545c5ef40b88ed42860b9f0f13f.jpg" alt="">
+                     
+                      <div class="part-nav1">
+                        <h4>Vyavastha</h4>
+                        <!-- <p>1h 7m<i class="fa-solid fa-circle"></i>Comedy<i class="fa-solid fa-circle"></i>Thriller</p> -->
+                        <div class="flex2">
+                        <button id="btn3">
+                          <i class="fa-solid fa-play"></i>Watch
+                        </button>
+                      <h5><i class="fa-solid fa-share"></i>Share</h5>
+                      </div>
+                        
+                        
+                        </div>
+                        </div>   
+                        <!-- box -->
+                        <div class="slide-img1">
+                          <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5173774/portrait/1920rangbaz84ee989e4c544892ba0da5c57b32db1b.jpg" alt="">
+                         
+                          <div class="part-nav1">
+                            <h4>Rangbazz : darr Ki Raajniti</h4>
+                            <!-- <p>1h 7m<i class="fa-solid fa-circle"></i>Comedy<i class="fa-solid fa-circle"></i>Thriller</p> -->
+                            <div class="flex2">
+                            <button id="btn3">
+                              <i class="fa-solid fa-play"></i>Watch
+                            </button>
+                          <h5><i class="fa-solid fa-share"></i>Share</h5>
+                          </div>
+                            
+                            
+                            </div>
+                            </div> 
+                            <!-- box -->
+                            <div class="slide-img1">
+                              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5199975/portrait/1920x77065f24a99cf4047bda7cad6d7cf07566d5f525f74269341e1b547cb045e08fa9a.jpg" alt="">
+                             
+                              <div class="part-nav1">
+                                <h4>Mukhbir : The Story of a Spy</h4>
+                                <!-- <p>1h 7m<i class="fa-solid fa-circle"></i>Comedy<i class="fa-solid fa-circle"></i>Thriller</p> -->
+                                <div class="flex2">
+                                <button id="btn3">
+                                  <i class="fa-solid fa-play"></i>Watch
+                                </button>
+                              <h5><i class="fa-solid fa-share"></i>Share</h5>
+                              </div>
+                                
+                                
+                                </div>
+                                </div> 
+        </div>
+      </div>
+      <div class="page4">
+        <h3>Latest Hindi Episodes free</h3>
+        <div class="nav-part5">
+        
+          <div class="nav2">
+            <div class="image-tag">
+           <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5404269/list/00000216bf7ff2c7431b44dabe3888eb0f19e8e8.jpg" alt="">
+            <div class="slider-nav">
+              <h4>Kundali Bhagya-August 06 2023</h4>
+              <div class="hero">
+              <button>
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+            </div>
+            </div>
+            </div>
+            <!-- box -->
+            <div class="nav2">
+              <div class="image-tag">
+             <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5404213/list/00000178f18ffe2c261e4451b9ae25edc3ec518d.jpg" alt="">
+              <div class="slider-nav">
+                <h4>Meet-August 06 2023</h4>
+                <div class="hero">
+                <button>
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+              </div>
+              </div>
+              </div>
+            <!-- box -->
+            <div class="nav2">
+              <div class="image-tag">
+             <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5404122/list/0000006255b2f79d183440c0a93ef814afd2ad8d.jpg" alt="">
+              <div class="slider-nav">
+                <h4> Bhagya Lakshmi-August 06 2023</h4>
+                <div class="hero">
+                <button>
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+              </div>
+              </div>
+              </div>
+            <!-- box -->
+            <div class="nav2">
+              <div class="image-tag">
+             <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5404129/list/00000207e418a0f742d64fc6864be229a0c03edd.jpg" alt="">
+              <div class="slider-nav">
+                <h4>Kumkum Bhagya-August 06 2023</h4>
+                <div class="hero">
+                <button>
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+              </div>
+              </div>
+              </div>
+            <!-- box -->
+            
+            
+          </div>
+          
+        </div>
+        <div class="page5">
+          <h3>Top Bhojpuri Movies</h3>
+          <div class="wasim">
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5234663/portrait/1920x7708f2251201adf41988e18982f4dc2b7e6.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Commando Arjun</h4>
+                <p>2h 17m<i class="fa-solid fa-circle"></i>Drama<i class="fa-solid fa-circle"></i>Action</p>
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                
+                
+                </div>
+                </div>
+                 <!--box  -->
+                 <div class="slide-img1">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-35021/portrait/1920x770646320061d2f4150a81841c2df7aa825.jpg" alt="">
+                 
+                  <div class="part-nav1">
+                    <h4>Nirahua Hindustani 3</h4>
+                    <p>2h 42m<i class="fa-solid fa-circle"></i>Comedy<i class="fa-solid fa-circle"></i>Action</p>
+                    <div class="flex2">
+                    <button id="btn3">
+                      <i class="fa-solid fa-play"></i>Watch
+                    </button>
+                  <h5><i class="fa-solid fa-share"></i>Share</h5>
+                  </div>
+                    
+                    
+                    </div>
+                    </div>
+                 <!-- box -->
+                 <div class="slide-img1">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5222689/portrait/1920x7703924cf9824184ce8910977cc88aab781.jpg" alt="">
+                 
+                  <div class="part-nav1">
+                    <h4>Babli ke Baraat</h4>
+                    <p>2h 32m<i class="fa-solid fa-circle"></i>Romance<i class="fa-solid fa-circle"></i>Drama</p>
+                    <div class="flex2">
+                    <button id="btn3">
+                      <i class="fa-solid fa-play"></i>Watch
+                    </button>
+                  <h5><i class="fa-solid fa-share"></i>Share</h5>
+                  </div>
+                    
+                    
+                    </div>
+                    </div>
+                 <!-- box -->
+                 <div class="slide-img1">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-19144/portrait/0019144cover1012146238.jpg" alt="">
+                 
+                  <div class="part-nav1">
+                    <h4>Dabangg Sarkar</h4>
+                    <p>2h 22m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p>
+                    <div class="flex2">
+                    <button id="btn3">
+                      <i class="fa-solid fa-play"></i>Watch
+                    </button>
+                  <h5><i class="fa-solid fa-share"></i>Share</h5>
+                  </div>
+                    
+                    
+                    </div>
+                    </div>
+                 <!-- box -->
+                 <div class="slide-img1">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z531934/portrait/1920x7707c6dc06c31f54eebb5000a215d677936.jpg" alt="">
+                 
+                  <div class="part-nav1">
+                    <h4>Ziddi Aashiq</h4>
+                    <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p>
+                    <div class="flex2">
+                    <button id="btn3">
+                      <i class="fa-solid fa-play"></i>Watch
+                    </button>
+                  <h5><i class="fa-solid fa-share"></i>Share</h5>
+                  </div>
+                    
+                    
+                    </div>
+                    </div>
+                 <!-- box -->
+          </div>
+        </div>
+        <div class="page6">
+          <h3>Navin Marathi Epa||Subscribe Kara</h3>
+          <div class="display">
+            <!-- box -->
+            <div class="nav2">
+              <div class="image-tag">
+             <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5407376/list/00000057bfc44a0dc5be443882b5ab67e354233f.jpg" alt="">
+              <div class="slider-nav">
+                <h4> Nava Gadi Nava Rajya-Aug 07 2023</h4>
+                <div class="hero">
+                <button>
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+              </div>
+              </div>
+              </div>
+              <!-- box -->
+              <div class="nav2">
+                <div class="image-tag">
+               <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5407403/list/000001867de06f5759f145249e3b1ba5297e65a9.jpg" alt="">
+                <div class="slider-nav">
+                  <h4> Satya Mulichi saatvi Mulgi-Aug 07 2023</h4>
+                  <div class="hero">
+                  <button>
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                </div>
+                </div>
+                </div>
+              <!-- box -->
+              <div class="nav2">
+                <div class="image-tag">
+               <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5407315/list/000003966404280973d84689942b750f3f997615.jpg" alt="">
+                <div class="slider-nav">
+                  <h4> Appi-scheme for the welfare of pregnant</h4>
+                  <div class="hero">
+                  <button>
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                </div>
+                </div>
+                </div>
+              <!-- box -->
+              <div class="nav2">
+                <div class="image-tag">
+               <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5407397/list/000002440007e61cb23a40b982a23052d7b56c00.jpg" alt="">
+                <div class="slider-nav">
+                  <h4> chala hawa yeu Dya-Lahan Tondi Metha</h4>
+                  <div class="hero">
+                  <button>
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                </div>
+                </div>
+                </div>
+              <!-- box -->
+          </div>
+        </div>
+        <div class="page7">
+          <h3>Top 10 Movies in India</h3>
+          <div class="slide-nav3">
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5368704/portrait/1920x770f69118a4838a47739de23c5f79918761.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Tarla</h4>
+                <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                
+                
+                </div>
+                </div>
+                <!-- box -->
+                <div class="slide-img1">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5359029/portrait/1920x770e80779dbdde042fd8f451ea5a69cec08.jpg" alt="">
+                 
+                  <div class="part-nav1">
+                    <h4>Sirf Ek bandaa Kafi Hai</h4>
+                    <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+                    <div class="flex2">
+                    <button id="btn3">
+                      <i class="fa-solid fa-play"></i>Watch
+                    </button>
+                  <h5><i class="fa-solid fa-share"></i>Share</h5>
+                  </div>
+                    
+                    
+                    </div>
+                    </div>
+                <!-- box -->
+                <div class="slide-img1">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5391348/portrait/kadharbasha150h1920w720f77557c9d29c4740909fe05ddf76f1d4.jpg" alt="">
+                 
+                  <div class="part-nav1">
+                    <h4>Kathar Basha Endra Muthuramali</h4>
+                    <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+                    <div class="flex2">
+                    <button id="btn3">
+                      <i class="fa-solid fa-play"></i>Watch
+                    </button>
+                  <h5><i class="fa-solid fa-share"></i>Share</h5>
+                  </div>
+                    </div>
+                    </div>
+                <!-- box -->
+                <div class="slide-img1">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5379692/portrait/1920x7702441c1e9f0a847618aee322d7527a791.jpg" alt="">
+                 
+                  <div class="part-nav1">
+                    <h4>Kisi ka Bhai kisi Ki Jaan</h4>
+                    <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+                    <div class="flex2">
+                    <button id="btn3">
+                      <i class="fa-solid fa-play"></i>Watch
+                    </button>
+                  <h5><i class="fa-solid fa-share"></i>Share</h5>
+                  </div>
+                    </div>
+                    </div>
+                <!-- box -->
+                <div class="slide-img1">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-gadarekpremkatha/portrait/1920x7707558b34a048d4229b1346d169454a1bd.jpg" alt="">
+                 
+                  <div class="part-nav1">
+                    <h4>Gadar : Ek Prem Katha</h4>
+                    <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+                    <div class="flex2">
+                    <button id="btn3">
+                      <i class="fa-solid fa-play"></i>Watch
+                    </button>
+                  <h5><i class="fa-solid fa-share"></i>Share</h5>
+                  </div>
+                    </div>
+                    </div>
+                <!-- box -->
+          </div>
+        </div>
+        <div class="page8">
+          <h3>Unmissable Movies & shows</h3>
+          <div class="scroller">
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133458/portrait/1920x770ee070807403048a7a76f9fab0a1ca2ff.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>The Kashmir Files</h4>
+                <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+          
+           <!-- box -->
+           <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5250012/portrait/1920x770b658912ada8848048bea115d122b6be3.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>India Lockdown</h4>
+              <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+           
+           <!-- box -->
+           <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/portrait/1920x770f64d124a95ca4804a2279fb5883eacc46e9b0ae73a264f5c9a349326d7bfc3a4.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Taj</h4>
+              <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+           <!-- box -->
+           <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5228525/portrait/1920x77069dfde7f955d4ef69e73c3b682aa636baf7e693843c94bca830df12a92375a8b.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Raksha Bandhan</h4>
+              <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+           <!-- box -->
+           <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5193948/portrait/1920x7704ba850de7a8a410cb16fa2d7468d3e77.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Durgaa</h4>
+              <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+           <!-- box -->
+        </div>
+        </div>
+        <div class="page9">
+          <h3>Explore in Your Language</h3>
+          <div class="scroll-bar">
+            <div class="nav2">
+              <div class="image-tag">
+             <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258169/list/teluguplatformlanguage21170x6586720276e6d5fe5806b4c2194af1d5abc7ba3b9.jpg" alt="">
+              <div class="slider-nav">
+                <h4>Telugu</h4>
+                <div class="hero">
+                <button>
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+              </div>
+              </div>
+              </div>
+            <!-- box -->
+            <div class="nav2">
+              <div class="image-tag">
+             <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258171/list/tamilplatformlanguage21170x658672027d3e73936dd574ef7acb36f835cdb3f6c.jpg" alt="">
+              <div class="slider-nav">
+                <h4>Tamil</h4>
+                <div class="hero">
+                <button>
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+              </div>
+              </div>
+              </div>
+            <!-- box -->
+            <div class="nav2">
+              <div class="image-tag">
+             <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258170/list/kannadaplatformlanguage21170x65867202705a6a3c940cb413fbdb285ca4b63680a.jpg" alt="">
+              <div class="slider-nav">
+                <h4>Kannada</h4>
+                <div class="hero">
+                <button>
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+              </div>
+              </div>
+              </div>
+              <!-- box -->
+              <div class="nav2">
+                <div class="image-tag">
+               <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-7867/list/hindiplatformlanguage21170x6586720271ae3ad97a68f4adb9428bc32a84d7c68.jpg" alt="">
+                <div class="slider-nav">
+                  <h4>Hindi</h4>
+                  <div class="hero">
+                  <button>
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                </div>
+                </div>
+                </div>
+              <!-- box -->
+          </div>
+        </div>
+      
+    <div class="page10">
+      <h3>Bollywood BlockBusters</h3>
+      <div class="hurry">
+        <div class="slide-img1">
+          <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-96839/portrait/1920x77062fa79ad2a00435ca0ef053f6a476a74.jpg" alt="">
+         
+          <div class="part-nav1">
+            <h4>Dream Girl</h4>
+            <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+            <div class="flex2">
+            <button id="btn3">
+              <i class="fa-solid fa-play"></i>Watch
+            </button>
+          <h5><i class="fa-solid fa-share"></i>Share</h5>
+          </div>
+            </div>
+            </div>
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-gadarekpremkatha/portrait/1920x7707558b34a048d4229b1346d169454a1bd.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Gadar : Ek Prem Katha</h4>
+                <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-33204/portrait/1920x7705aeb7ed5a533442fab008ab345b5a142.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Url:The surgical Strike</h4>
+                <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-35166/portrait/1920x770a6695f542cf3419291a6bc299aa894f36beecab5698747888534bbbac6185936.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Simbaa</h4>
+                <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5379692/portrait/1920x7702441c1e9f0a847618aee322d7527a791.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Kisi ka Bhai Kisi Ki Jaan</h4>
+                <!-- <p>2h 03m<i class="fa-solid fa-circle"></i>Roamnce<i class="fa-solid fa-circle"></i>Action</p> -->
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+            <!-- box -->
+      </div>
+    </div>
+       <div class="page11">
+        <h3>Bhojpuri movies Mania</h3>
+        <div class="movie">
+          <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5222689/portrait/1920x7703924cf9824184ce8910977cc88aab781.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Babli Ke Baraat</h4>
+              <p>2h 15m<i class="fa-solid fa-circle"></i>Romance<i class="fa-solid fa-circle"></i>Drama</p>
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+              <!-- box -->
+
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5197898/portrait/1920x7708f0b52748ebb484b949f39f688028bbe.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Babul</h4>
+                  <p>2h 17m<i class="fa-solid fa-circle"></i>Romance<i class="fa-solid fa-circle"></i>Drama</p>
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z55609/portrait/1920x7701b85db0477a34b518f162045398ab7a7.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Dulhan Ganga Paar Ke</h4>
+                  <p>2h 29m<i class="fa-solid fa-circle"></i>Romance<i class="fa-solid fa-circle"></i>Action</p>
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+
+              
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5181566/portrait/1920x7700882fd5f305a4ac3b3f02ea41f347660.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Badrinath</h4>
+                  <p>1h 58m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p>
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-17636/portrait/0017636cover43888098.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Dabangg Aashiq</h4>
+                  <p>2h 15m<i class="fa-solid fa-circle"></i>Romance<i class="fa-solid fa-circle"></i>Action</p>
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+        </div>
+       </div>
+       <div class="page12">
+        <h3>Must Watch Free Marathi Shows</h3>
+        <div class="game">
+          <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-3521/portrait/1920x77084c2de16b0fc4b959c0ee81e7da883b5.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Mazhi Tuzhi Reeshimgath </h4>
+              <!-- <p>2h 15m<i class="fa-solid fa-circle"></i>Romance<i class="fa-solid fa-circle"></i>Action</p> -->
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-339/portrait/1920x770f94b924f5092483198afd3d8363562e5.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Lagira Zhala ji</h4>
+                  <!-- <p>2h 15m<i class="fa-solid fa-circle"></i>Romance<i class="fa-solid fa-circle"></i>Action</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+                  <!-- box -->
+                  <div class="slide-img1">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-336/portrait/1920x770538af9d9a30f4ef5afe0f7b303694caf.jpg" alt="">
+                   
+                    <div class="part-nav1">
+                      <h4>Phulpakhuru</h4>
+                      <!-- <p>2h 15m<i class="fa-solid fa-circle"></i>Romance<i class="fa-solid fa-circle"></i>Action</p> -->
+                      <div class="flex2">
+                      <button id="btn3">
+                        <i class="fa-solid fa-play"></i>Watch
+                      </button>
+                    <h5><i class="fa-solid fa-share"></i>Share</h5>
+                    </div>
+                      </div>
+                      </div>
+                      <!-- box -->
+                      <div class="slide-img1">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-662/portrait/1920x77010a64e81b289453e887e78fb57a6874c.jpg" alt="">
+                       
+                        <div class="part-nav1">
+                          <h4>Swarajyarakshak sambhaji</h4>
+                          <!-- <p>2h 15m<i class="fa-solid fa-circle"></i>Romance<i class="fa-solid fa-circle"></i>Action</p> -->
+                          <div class="flex2">
+                          <button id="btn3">
+                            <i class="fa-solid fa-play"></i>Watch
+                          </button>
+                        <h5><i class="fa-solid fa-share"></i>Share</h5>
+                        </div>
+                          </div>
+                          </div>
+                          <!-- box -->
+                          <div class="slide-img1">
+                            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-1-6z5395330/portrait/1920x7706cec3780a11844a9a5eb58e99a67031b.jpg" alt="">
+                           
+                            <div class="part-nav1">
+                              <h4>Yash And Neha successful journey</h4>
+                              <p>E01<i class="fa-solid fa-circle"></i>13 July</p>
+                              <div class="flex2">
+                              <button id="btn3">
+                                <i class="fa-solid fa-play"></i>Watch
+                              </button>
+                            <h5><i class="fa-solid fa-share"></i>Share</h5>
+                            </div>
+                              </div>
+                              </div>
+                              <!-- box -->
+        </div>
+       </div>
+       <div class="page13">
+        <h3>Hand-Picked Movies|Rent & Watch</h3>
+        <div class="slider7">
+          <div class="img1">
+           <img src="https://akamaividz2.zee5.com/image/upload/w_396,h_223,c_scale,f_webp,q_auto:eco/resources/0-0-1z5383546/list/1170x658withlogo74fe7d5062af4937a70269c493057d8c.jpg" alt="">
+          </div>
+          <div class="img2">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_396,h_223,c_scale,f_webp,q_auto:eco/resources/0-0-1z5347296/list/1170x658withlogo6b54592c21d64d9dbb4b04d54bdbd5c3.jpg" alt="">
+          </div>
+        </div>
+       </div>
+       <div class="page14">
+        <h3>World Hite|Free Dubbed Movie</h3>
+        <div class="style">
+          <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5402898/portrait/1920x7704680a47bab14477fb32d72954f6770e2.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Bang Rajan 2</h4>
+              <p>2h 1m<i class="fa-solid fa-circle"></i>Adventure<i class="fa-solid fa-circle"></i>Action</p>
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5402647/portrait/1920x77052097460bea847d2bf8526a467a89e33.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Snake 2</h4>
+                  <p>2h 1m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p>
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5402653/portrait/1920x7706ff96d994d194af59a46b5f2d6340dc2045a906f9d6142738ca6e7a5c608c28e.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>shennong savage</h4>
+                  <p>1h 10m<i class="fa-solid fa-circle"></i>Adventure<i class="fa-solid fa-circle"></i>Action</p>
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5402642/portrait/1920x7708fd3c3d994c34a338f5eaf6ab83559a8.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>The Good The Bad The weird </h4>
+                <p>2h 10m<i class="fa-solid fa-circle"></i>Adventure<i class="fa-solid fa-circle"></i>Action</p>
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5395191/portrait/1920x770b5ac2e7a57aa4224997af011e4c2ac3c.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>IP Man The Real Fighter</h4>
+                <p>1h 29m<i class="fa-solid fa-circle"></i>Adventure<i class="fa-solid fa-circle"></i>Action</p>
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+            <!-- box -->
+        </div>
+       </div>
+       <div class="page15">
+        <h3>Devotional Shows For You</h3>
+        <div class="nav4">
+          <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5402898/portrait/1920x7704680a47bab14477fb32d72954f6770e2.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Sai vibhuti</h4>
+              <!-- <p>2h 1m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+              <!-- ox -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5402759/portrait/1920x770acb1716fcddf44bda9142766b2bc218b.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Parshuram</h4>
+                  <!-- <p>2h 1m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5402876/portrait/1920x770311d8508bee8486dab185fd8fc53290b.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Sai Ki Mahima</h4>
+                  <!-- <p>2h 1m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5371994/portrait/1920x7706926e2e8a4384825b064bd9208bc180e.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Sarvam Shakthi Mayam</h4>
+                  <!-- <p>2h 1m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5402854/portrait/1920x770834f52697036487593d24fc1670038b1.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Sai bhakto ki Sachi Kahani</h4>
+                  <!--<p>2h 1m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+        </div>
+       </div>
+       <div class="page16">
+        <img src="https://akamaividz2.zee5.com/image/upload/w_1286,h_236,c_scale,f_webp,q_auto:eco/resources/0-101-10z5314874/homefeed_launcher_sticker/kb1312x312043a097f0d0743969f0f53fc61c46b23.jpg" alt="">
+       </div>
+
+       <div class="page17">
+        <h3>Free K-Dramas in Hindi</h3>
+        <div class="font">
+          <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5406329/portrait/1920x770b1715b97d8714c4a926f3a101ad3109c.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Pinocchio</h4>
+              <!--<p>2h 1m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5402851/portrait/1920x7707de25589511f4d1195381d9f37fd7bad.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>The Heirs</h4>
+                  <!--<p>2h 1m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5402829/portrait/1920x770633ef218ac4a456e8355772aa5ec0347120b5032376043b3b4092bdb579d8177.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>I Am Not a Robot</h4>
+                  <!--<p>2h 1m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5399216/portrait/1920x7703f8c257d198f4083a06115487b9f7689.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Cheer Up</h4>
+                  <!--<p>2h 1m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5399215/portrait/1920x77073c1225195e54a05b0c8da2b210b9a851b5755b674234e418a532e454e8b424d.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Doctor Stranger</h4>
+                <!--<p>2h 1m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+            <!-- box -->
+        </div>
+       </div>
+       <div class="page18">
+        <h3>South Dubbed Dhamaka</h3>
+        <div class="king">
+          <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5395713/portrait/1920x7704afb83c4bf5e45488508160f7d309c1a.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Raangi</h4>
+              <p>1h 53m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Thriller</p>
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5387491/portrait/1920x770586c5d1095e54fb8bbcf66efb47caa72.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Ek Yodha Surveer</h4>
+                  <p>2h 27m<i class="fa-solid fa-circle"></i>Period Drama<i class="fa-solid fa-circle"></i>Action</p>
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299796/portrait/1920x770d73448cbdb9f4525b4646e6f4df3fb08899fc23db9804a16aaf676777847b55b.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Acharya</h4>
+                  <p>2h 26m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p>
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-2479/portrait/002479cover.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Chennai Vs Chaina</h4>
+                  <p>2h 32m<i class="fa-solid fa-circle"></i>So-fi<i class="fa-solid fa-circle"></i>Action</p>
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5383673/portrait/1920x7702ba5f9ca195743c8af28abaa091064d6.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Inspector Bajrangi</h4>
+                  <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p>
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+        </div>
+       </div>
+       <div class="page19">
+        <h3>Movie Marathon|500+ Free Movies</h3>
+        <div class="dollar">
+          <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-2526/portrait/1920x7709d7d41f6bd304fea92bd5f9def1d8b09.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Ra.one</h4>
+              <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5380500/portrait/1920x77091f58840529444b098f688a810a97cef.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Lakadbaggha</h4>
+                  <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5323147/portrait/1920x7708c64d9f25c11415795d018f463ccade3.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Am I Next</h4>
+                  <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-partner/portrait/partnerbanner1920x7706058dfcb06d8473bbdf0e8441b28c9a8.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Partner</h4>
+                  <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z51324/portrait/1920x7700a2599817c774b6ea8f5e3f84bc3b294.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Golmaal Returns</h4>
+                  <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p>
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+        </div>
+       </div>
+       <div class="page20">
+         <h3>Your favourite Marathi shows</h3>
+         <div class="slider-bar1">
+          <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5214554/portrait/1920x7704b69457e48a542efa3968adf725fe1f4.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Saatya mulichi saatvi Mulgi</h4>
+              <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5185728/portrait/1920x7708bd1ea9fef7345208ac03b418b543e5b.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Nava gadi Nava Rajya</h4>
+                  <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5324079/portrait/1920x770a08b688e6b0e46ba9282332681f290d2.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Tula shikvin changlach Dhada</h4>
+                  <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5187769/portrait/1920x7705b65a6a3e7e7493cb22adada8f785801.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Tu chal Puddha</h4>
+                  <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5202579/portrait/1920x770044bfb1acd1042f9897621b2378595d9.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Appi Amchi colletor</h4>
+                  <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+              <!-- box -->
+         </div>
+       </div>
+       <div class="page21">
+        <h3>House of Horrors</h3>
+        <div class="lier">
+          <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-6966/portrait/1920x7705986bc7c7ee749f0803a9166be3829a8.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Alone</h4>
+              <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5367989/portrait/1920x7709d87a5d606834b0e8f1509be7efc69d2.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>The Nun</h4>
+                  <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+    
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-7347/portrait/007347cover1206827067.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>1920 London</h4>
+                  <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+    
+              <!-- box -->
+              <div class="slide-img1">
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5372052/portrait/1920x7701db3340412f44a7186957721fd47b369.jpg" alt="">
+               
+                <div class="part-nav1">
+                  <h4>Vivarium</h4>
+                  <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                  <div class="flex2">
+                  <button id="btn3">
+                    <i class="fa-solid fa-play"></i>Watch
+                  </button>
+                <h5><i class="fa-solid fa-share"></i>Share</h5>
+                </div>
+                  </div>
+                  </div>
+    
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-8360/portrait/1920x77025533280d14f4f87a122eac645431ad48513d555f5274f698904a8ffa7afd1f3.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Ragini MMS 2</h4>
+                <!-- <p>1h 45m<i class="fa-solid fa-circle"></i>Action<i class="fa-solid fa-circle"></i>Drama</p> -->
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+  
+            <!-- box -->
+        </div>
+       </div>
+       <div class="page22">
+        
+        <img src="https://akamaividz2.zee5.com/image/upload/w_1286,h_236,c_scale,f_webp,q_auto:eco/resources/0-101-10z5219162/homefeed_launcher_sticker/hindimusictrending1312x31211abe52a8ea04e7fb5628c9c4cd7d708.jpg" alt="">
+       </div>
+       <div class="page23">
+        <h3>From the  Crime Scene</h3>
+        <div class="surfe">
+          <div class="slide-img1">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5375872/portrait/1920x77054add96989e34135a55703a9bb64f21a.jpg" alt="">
+           
+            <div class="part-nav1">
+              <h4>Siya</h4>
+              <p>1h 50m<i class="fa-solid fa-circle"></i>Crime<i class="fa-solid fa-circle"></i>Drama</p>
+              <div class="flex2">
+              <button id="btn3">
+                <i class="fa-solid fa-play"></i>Watch
+              </button>
+            <h5><i class="fa-solid fa-share"></i>Share</h5>
+            </div>
+              </div>
+              </div>
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5295439/portrait/1920x77085ff27349bb94ec692c9ab243b6cbf68.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Operation Fryday</h4>
+                <p>2h 15m<i class="fa-solid fa-circle"></i>Crime<i class="fa-solid fa-circle"></i>Action</p>
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5254708/portrait/1920x770ebb857573bef467bb8e2727da4d2ffaf.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Chup:Revenge Of The Artist</h4>
+                <p>2h 10m<i class="fa-solid fa-circle"></i>Drama<i class="fa-solid fa-circle"></i>Thriller</p>
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5206274/portrait/1920x770485283887ce04c66a91f3e5dc0e20747.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Khuda Hafiz Chapter 2</h4>
+                <p>2h 19m<i class="fa-solid fa-circle"></i>Crime<i class="fa-solid fa-circle"></i>Action</p>
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+            <!-- box -->
+            <div class="slide-img1">
+              <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5246228/portrait/1920x770208c526033d945968af0dd5c8f9cd059bdf7b24731c34dbaa819c33eaf9d9d56.jpg" alt="">
+             
+              <div class="part-nav1">
+                <h4>Country Mafia</h4>
+                <!-- <p>2h 15m<i class="fa-solid fa-circle"></i>Crime<i class="fa-solid fa-circle"></i>Action</p> -->
+                <div class="flex2">
+                <button id="btn3">
+                  <i class="fa-solid fa-play"></i>Watch
+                </button>
+              <h5><i class="fa-solid fa-share"></i>Share</h5>
+              </div>
+                </div>
+                </div>
+            <!-- box -->
+        </div>
+       </div>
+       <div class="footer">
+        <div class="foot">
+          <div class="king2">
+            <h4>Download Apps</h4>
+            <img src="https://www.zee5.com/images/play_store.png?ver=3.12.6" alt="">
+             <img src="https://www.zee5.com/images/app_store.png?ver=3.12.6" alt="">
+          </div>
+          <div class="play">
+            <p>About Us      |</p>
+            <p>Help Center      |</p>
+            <p>Privacy Policy    |</p>
+            <p>Terms of use</p>
+          </div>
+          <div class="conect">
+            <h4>Connect with  us</h4>
+            <div class="icon">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+        <div class="final">
+          <div class="slider-nav-part3">
+            <h4> Popular Tv Shows</h4>
+            <p>Kumkum Bhagya</p>
+            <p>Kundali Bhagya</p>
+            <p> Bhagya Lakshmi</p>
+            <p>Meet</p>
+            <p>Annapurna</p>
+            <p>Indira</p>
+            <p>Korean Drama</p>
+            <p>Pakistani serials</p>
+          </div>
+          <div class="slider-nav-part3">
+            <h4>Premium Movies</h4>
+            <p>Kisi Ki bhai Ki Jaan</p>
+            <p>Bandaa</p>
+            <p>RRR</p>
+            <p>Uunchai</p>
+            <p>Uri: The Surgical strike</p>
+            <p>The Kashmir Files</p>
+            <p>Dial 100</p>
+            <p>Helmet</p>
+          </div>
+          <div class="slider-nav-part3">
+            <h4>Popular LIVE TV Channels</h4>
+            <p>Zee News</p>
+            <p>Zee Tv HD</p>
+            <p>&Tv HD</p>
+            <p>Zee Marathi HD</p>
+            
+            
+          </div>
+          <div class="slider-nav-part3">
+            <h4> Popular Web Series</h4>
+            <p>Taj</p>
+            <p>Sunflower</p>
+            <p>Tripling</p>
+            <p>Pitchers</p>
+            <p>Naxalbari</p>
+            <p>Anantham</p>
+            <p>Gaalivana</p>
+          </div>
+          <div class="slider-nav-part3">
+            <h4>Bollywood Top Celebrities</h4>
+            <p>Salman Khan</p>
+            <p>Disha Patani</p>
+            <p>Deepika Padukone</p>
+            <p>Nora fatehi</p>
+            <p>Pooja Hegde</p>
+            <p>Manoj bhajapayee</p>
+            <p>Akshay Kumar</p>
+          </div>
+        </div>
+        <div class="nav6">
+          <span>Best viewed on Google Chrome 80+,Microsoft Edge 81+,mozilla Firebox 75+,safari5.15+<br>Copyright©2023 Zee Entertainment Enterprises Ltd,All rights Reserved</span>
+        </div>
+       </div>
+    </div>
+       
+    
+
+      
+
+      
+
+      
+      
+
+      
+
+
+      
+     
+
+
+      
+
+          
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
